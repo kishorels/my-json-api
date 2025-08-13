@@ -1,9 +1,27 @@
 {
+
   "users": [
-    { "id": 1, "name": "Kishore", "email": "kishore@example.com", "role": "admin" },
-    { "id": 2, "name": "John", "email": "john@example.com", "role": "teacher" },
-    { "id": 3, "name": "Priya", "email": "priya@example.com", "role": "student" }
+    {
+      "id": 1,
+      "name": "Kishore",
+      "email": "kishore@example.com",
+      "password": "1"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "1"
+    },
+    {
+      "id": 3,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "1"
+    }
   ],
+
+
   "courses": [
     { "id": 1, "name": "B.Sc Computer Science", "duration": "3 Years" },
     { "id": 2, "name": "B.Com", "duration": "3 Years" },
