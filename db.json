@@ -75,98 +75,32 @@
   { "id": 15, "name": "Software Engineering" }
 ],
 
+  
   "classes": [
-  {
-    "id": 1,
-    "name": "Data Structures",
-    "departmentId": 1,
-    "semesterId": 3
-  },
-  {
-    "id": 2,
-    "name": "Digital Electronics",
-    "departmentId": 2,
-    "semesterId": 3
-  },
-  {
-    "id": 3,
-    "name": "Thermodynamics",
-    "departmentId": 4,
-    "semesterId": 5
-  },
-  {
-    "id": 4,
-    "name": "Construction Materials",
-    "departmentId": 5,
-    "semesterId": 4
-  },
-  {
-    "id": 5,
-    "name": "Microprocessors",
-    "departmentId": 1,
-    "semesterId": 5
-  },
-  {
-    "id": 6,
-    "name": "Marketing Management",
-    "departmentId": 9,
-    "semesterId": 1
-  },
-  {
-    "id": 7,
-    "name": "Control Systems",
-    "departmentId": 3,
-    "semesterId": 4
-  },
-  {
-    "id": 8,
-    "name": "Machine Learning",
-    "departmentId": 7,
-    "semesterId": 6
-  },
-  {
-    "id": 9,
-    "name": "Structural Analysis",
-    "departmentId": 5,
-    "semesterId": 5
-  },
-  {
-    "id": 10,
-    "name": "Web Technologies",
-    "departmentId": 1,
-    "semesterId": 6
-  },
-  {
-    "id": 11,
-    "name": "Artificial Intelligence",
-    "departmentId": 7,
-    "semesterId": 7
-  },
-  {
-    "id": 12,
-    "name": "Operating Systems",
-    "departmentId": 1,
-    "semesterId": 4
-  },
-  {
-    "id": 13,
-    "name": "Power Systems",
-    "departmentId": 3,
-    "semesterId": 6
-  },
-  {
-    "id": 14,
-    "name": "Bioprocess Engineering",
-    "departmentId": 8,
-    "semesterId": 5
-  },
-  {
-    "id": 15,
-    "name": "Financial Accounting",
-    "departmentId": 9,
-    "semesterId": 2
-  }
-] ,
+    { "id": 1, "name": "First Year", "departmentId": 1 },
+    { "id": 2, "name": "Second Year", "departmentId": 1 },
+    { "id": 3, "name": "Third Year", "departmentId": 1 },
+    { "id": 4, "name": "Final Year", "departmentId": 1 },
+
+    { "id": 5, "name": "First Year", "departmentId": 2 },
+    { "id": 6, "name": "Second Year", "departmentId": 2 },
+    { "id": 7, "name": "Third Year", "departmentId": 2 },
+    { "id": 8, "name": "Final Year", "departmentId": 2 },
+
+    { "id": 9, "name": "First Year", "departmentId": 3 },
+    { "id": 10, "name": "Second Year", "departmentId": 3 },
+    { "id": 11, "name": "Third Year", "departmentId": 3 },
+    { "id": 12, "name": "Final Year", "departmentId": 3 },
+
+    { "id": 13, "name": "First Year", "departmentId": 4 },
+    { "id": 14, "name": "Second Year", "departmentId": 4 },
+    { "id": 15, "name": "Third Year", "departmentId": 4 },
+    { "id": 16, "name": "Final Year", "departmentId": 4 }
+
+
+  ] ,
+
+
 
   "subjects": [
     { "id": 1, "name": "Programming in C", "classId": 1 },
