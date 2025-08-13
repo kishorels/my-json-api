@@ -57,7 +57,7 @@
      { "id": 8, "name": "Semester 8" }
     
   ],
-[
+"departments": [
   { "id": 1, "name": "Computer Science and Engineering" },
   { "id": 2, "name": "Electronics and Communication Engineering" },
   { "id": 3, "name": "Electrical and Electronics Engineering" },
