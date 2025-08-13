@@ -1,48 +1,49 @@
 {
   "users": [
-    {
-      "id": 1,
-      "name": "Kishore",
-      "email": "kishore@example.com",
-      "password": "123456",
-      "course": "Engineering",
-      "graduationTypes": ["UG", "PG"],
-      "semesters": 8
-    }
+    { "id": 1, "name": "Kishore", "email": "kishore@example.com", "role": "admin" },
+    { "id": 2, "name": "John", "email": "john@example.com", "role": "teacher" },
+    { "id": 3, "name": "Priya", "email": "priya@example.com", "role": "student" }
   ],
   "courses": [
-    { "id": 1, "name": "Engineering" },
-    { "id": 2, "name": "Arts" },
-    { "id": 3, "name": "Science" }
+    { "id": 1, "name": "B.Sc Computer Science", "duration": "3 Years" },
+    { "id": 2, "name": "B.Com", "duration": "3 Years" },
+    { "id": 3, "name": "MBA", "duration": "2 Years" }
   ],
-  "graduationTypes": [
-    { "id": 1, "type": "UG" },
-    { "id": 2, "type": "PG" }
+  "graduations": [
+    { "id": 1, "name": "Undergraduate" },
+    { "id": 2, "name": "Postgraduate" }
   ],
   "semesters": [
-    { "id": 1, "courseId": 1, "count": 8 },
-    { "id": 2, "courseId": 2, "count": 6 }
+    { "id": 1, "name": "Semester 1" },
+    { "id": 2, "name": "Semester 2" },
+    { "id": 3, "name": "Semester 3" },
+    { "id": 4, "name": "Semester 4" },
+    { "id": 5, "name": "Semester 5" },
+    { "id": 6, "name": "Semester 6" }
   ],
   "departments": [
-    { "id": 1, "courseId": 1, "name": "Computer Science" },
-    { "id": 2, "courseId": 1, "name": "Mechanical" },
-    { "id": 3, "courseId": 2, "name": "English" }
+    { "id": 1, "name": "Computer Science" },
+    { "id": 2, "name": "Commerce" },
+    { "id": 3, "name": "Management" }
   ],
   "classes": [
-    { "id": 1, "departmentId": 1, "name": "CSE A" },
-    { "id": 2, "departmentId": 1, "name": "CSE B" },
-    { "id": 3, "departmentId": 2, "name": "MECH A" }
+    { "id": 1, "name": "CS-A", "departmentId": 1, "semesterId": 1 },
+    { "id": 2, "name": "CS-B", "departmentId": 1, "semesterId": 1 },
+    { "id": 3, "name": "COM-A", "departmentId": 2, "semesterId": 1 }
   ],
   "subjects": [
-    { "id": 1, "classId": 1, "semester": 1, "name": "Programming in C" },
-    { "id": 2, "classId": 1, "semester": 2, "name": "Data Structures" }
+    { "id": 1, "name": "Programming in C", "classId": 1 },
+    { "id": 2, "name": "Database Systems", "classId": 1 },
+    { "id": 3, "name": "Marketing Basics", "classId": 3 }
   ],
   "lessonPlans": [
-    { "id": 1, "subjectId": 1, "topic": "Introduction to C", "week": 1 },
-    { "id": 2, "subjectId": 1, "topic": "Loops in C", "week": 2 }
+    { "id": 1, "subjectId": 1, "week": 1, "topic": "Introduction to C Language" },
+    { "id": 2, "subjectId": 1, "week": 2, "topic": "Variables and Data Types" },
+    { "id": 3, "subjectId": 2, "week": 1, "topic": "Database Concepts" }
   ],
   "designations": [
-    { "id": 1, "departmentId": 1, "name": "Professor" },
-    { "id": 2, "departmentId": 1, "name": "Assistant Professor" }
+    { "id": 1, "name": "Professor" },
+    { "id": 2, "name": "Associate Professor" },
+    { "id": 3, "name": "Assistant Professor" }
   ]
 }
