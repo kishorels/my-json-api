@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Kishore",
+      "email": "kishore@example.com",
+      "password": "123456",
+      "course": "Engineering",
+      "graduationTypes": ["UG", "PG"],
+      "semesters": 8
+    }
+  ],
+  "courses": [
+    { "id": 1, "name": "Engineering" },
+    { "id": 2, "name": "Arts" },
+    { "id": 3, "name": "Science" }
+  ],
+  "graduationTypes": [
+    { "id": 1, "type": "UG" },
+    { "id": 2, "type": "PG" }
+  ],
+  "semesters": [
+    { "id": 1, "courseId": 1, "count": 8 },
+    { "id": 2, "courseId": 2, "count": 6 }
+  ],
+  "departments": [
+    { "id": 1, "courseId": 1, "name": "Computer Science" },
+    { "id": 2, "courseId": 1, "name": "Mechanical" },
+    { "id": 3, "courseId": 2, "name": "English" }
+  ],
+  "classes": [
+    { "id": 1, "departmentId": 1, "name": "CSE A" },
+    { "id": 2, "departmentId": 1, "name": "CSE B" },
+    { "id": 3, "departmentId": 2, "name": "MECH A" }
+  ],
+  "subjects": [
+    { "id": 1, "classId": 1, "semester": 1, "name": "Programming in C" },
+    { "id": 2, "classId": 1, "semester": 2, "name": "Data Structures" }
+  ],
+  "lessonPlans": [
+    { "id": 1, "subjectId": 1, "topic": "Introduction to C", "week": 1 },
+    { "id": 2, "subjectId": 1, "topic": "Loops in C", "week": 2 }
+  ],
+  "designations": [
+    { "id": 1, "departmentId": 1, "name": "Professor" },
+    { "id": 2, "departmentId": 1, "name": "Assistant Professor" }
+  ]
+}
