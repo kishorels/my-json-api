@@ -57,11 +57,24 @@
      { "id": 8, "name": "Semester 8" }
     
   ],
-  "departments": [
-    { "id": 1, "name": "Computer Science" },
-    { "id": 2, "name": "Commerce" },
-    { "id": 3, "name": "Management" }
-  ],
+[
+  { "id": 1, "name": "Computer Science and Engineering" },
+  { "id": 2, "name": "Electronics and Communication Engineering" },
+  { "id": 3, "name": "Electrical and Electronics Engineering" },
+  { "id": 4, "name": "Mechanical Engineering" },
+  { "id": 5, "name": "Civil Engineering" },
+  { "id": 6, "name": "Information Technology" },
+  { "id": 7, "name": "Artificial Intelligence and Machine Learning" },
+  { "id": 8, "name": "Biotechnology" },
+  { "id": 9, "name": "MBA" },
+  { "id": 10, "name": "Data Science" },
+  { "id": 11, "name": "Robotics and Automation" },
+  { "id": 12, "name": "Aerospace Engineering" },
+  { "id": 13, "name": "Chemical Engineering" },
+  { "id": 14, "name": "Environmental Engineering" },
+  { "id": 15, "name": "Software Engineering" }
+],
+
   "classes": [
     { "id": 1, "name": "CS-A", "departmentId": 1, "semesterId": 1 },
     { "id": 2, "name": "CS-B", "departmentId": 1, "semesterId": 1 },
