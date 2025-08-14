@@ -101,12 +101,31 @@
   ] ,
 
 
-
-  "subjects": [
+"subjects": [
     { "id": 1, "name": "Programming in C", "classId": 1 },
     { "id": 2, "name": "Database Systems", "classId": 1 },
-    { "id": 3, "name": "Marketing Basics", "classId": 3 }
-  ],
+    { "id": 3, "name": "Data Structures", "classId": 1 },
+    { "id": 4, "name": "Operating Systems", "classId": 1 },
+    { "id": 5, "name": "Computer Networks", "classId": 1 },
+
+    { "id": 6, "name": "Marketing Basics", "classId": 3 },
+    { "id": 7, "name": "Financial Accounting", "classId": 3 },
+    { "id": 8, "name": "Business Law", "classId": 3 },
+    { "id": 9, "name": "Organizational Behavior", "classId": 3 },
+    { "id": 10, "name": "Entrepreneurship", "classId": 3 },
+
+    { "id": 11, "name": "Engineering Mathematics I", "classId": 2 },
+    { "id": 12, "name": "Engineering Physics", "classId": 2 },
+    { "id": 13, "name": "Engineering Chemistry", "classId": 2 },
+    { "id": 14, "name": "Basic Electrical Engineering", "classId": 2 },
+    { "id": 15, "name": "Environmental Studies", "classId": 2 },
+
+    { "id": 16, "name": "Software Engineering", "classId": 4 },
+    { "id": 17, "name": "Mobile App Development", "classId": 4 },
+    { "id": 18, "name": "Web Technologies", "classId": 4 },
+    { "id": 19, "name": "Cloud Computing", "classId": 4 },
+    { "id": 20, "name": "Machine Learning", "classId": 4 }
+  ] , 
   "lessonPlans": [
     { "id": 1, "subjectId": 1, "week": 1, "topic": "Introduction to C Language" },
     { "id": 2, "subjectId": 1, "week": 2, "topic": "Variables and Data Types" },
