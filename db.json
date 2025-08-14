@@ -99,8 +99,6 @@
 
 
   ] ,
-
-
 "subjects": [
   {
     "subjectId": 1,
@@ -402,9 +400,8 @@
       }
     ]
   }
-]
- , 
-  "lessonPlans":[
+] , 
+"lessonPlans":[
   { "id": 1, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "Intro to Programming" },
   { "id": 2, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "History of C" },
   { "id": 3, "departmentId": 1, "classId": 1, "subjectId": 2, "chapter": "Chapter 2", "topic": "Database Concepts" },
