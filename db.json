@@ -332,157 +332,82 @@
   { "id": 50, "departmentId": 2, "classId": 5, "subjectId": 25, "chapter": "Chapter 5", "topic": "PID Controllers" }
 ]
 ,
+"designations"[
+  { "id": 101, "department": "Computer Science and Engineering", "name": "Professor" },
+  { "id": 102, "department": "Computer Science and Engineering", "name": "Associate Professor" },
+  { "id": 103, "department": "Computer Science and Engineering", "name": "Assistant Professor" },
+  { "id": 104, "department": "Computer Science and Engineering", "name": "Lab Instructor" },
 
-  "designations":[
-  {
-    "id": 1,
-    "designations": [
-      { "id": 101, "name": "Professor" },
-      { "id": 102, "name": "Associate Professor" },
-      { "id": 103, "name": "Assistant Professor" },
-      { "id": 104, "name": "Lab Instructor" }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Electronics and Communication Engineering",
-    "designations": [
-      { "id": 201, "name": "Professor" },
-      { "id": 202, "name": "Associate Professor" },
-      { "id": 203, "name": "Assistant Professor" },
-      { "id": 204, "name": "Lab Technician" }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Electrical and Electronics Engineering",
-    "designations": [
-      { "id": 301, "name": "Professor" },
-      { "id": 302, "name": "Associate Professor" },
-      { "id": 303, "name": "Assistant Professor" },
-      { "id": 304, "name": "Lab Technician" }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Mechanical Engineering",
-    "designations": [
-      { "id": 401, "name": "Professor" },
-      { "id": 402, "name": "Associate Professor" },
-      { "id": 403, "name": "Assistant Professor" },
-      { "id": 404, "name": "Workshop Instructor" }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Civil Engineering",
-    "designations": [
-      { "id": 501, "name": "Professor" },
-      { "id": 502, "name": "Associate Professor" },
-      { "id": 503, "name": "Assistant Professor" },
-      { "id": 504, "name": "Surveying Lab Instructor" }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Information Technology",
-    "designations": [
-      { "id": 601, "name": "Professor" },
-      { "id": 602, "name": "Associate Professor" },
-      { "id": 603, "name": "Assistant Professor" },
-      { "id": 604, "name": "Lab Instructor" }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Artificial Intelligence and Machine Learning",
-    "designations": [
-      { "id": 701, "name": "Professor" },
-      { "id": 702, "name": "Associate Professor" },
-      { "id": 703, "name": "Assistant Professor" },
-      { "id": 704, "name": "AI Lab Instructor" }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Biotechnology",
-    "designations": [
-      { "id": 801, "name": "Professor" },
-      { "id": 802, "name": "Associate Professor" },
-      { "id": 803, "name": "Assistant Professor" },
-      { "id": 804, "name": "Research Assistant" }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "MBA",
-    "designations": [
-      { "id": 901, "name": "Professor" },
-      { "id": 902, "name": "Associate Professor" },
-      { "id": 903, "name": "Assistant Professor" },
-      { "id": 904, "name": "Industry Expert" }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Data Science",
-    "designations": [
-      { "id": 1001, "name": "Professor" },
-      { "id": 1002, "name": "Associate Professor" },
-      { "id": 1003, "name": "Assistant Professor" },
-      { "id": 1004, "name": "Data Analyst" }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Robotics and Automation",
-    "designations": [
-      { "id": 1101, "name": "Professor" },
-      { "id": 1102, "name": "Associate Professor" },
-      { "id": 1103, "name": "Assistant Professor" },
-      { "id": 1104, "name": "Robotics Lab Instructor" }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Aerospace Engineering",
-    "designations": [
-      { "id": 1201, "name": "Professor" },
-      { "id": 1202, "name": "Associate Professor" },
-      { "id": 1203, "name": "Assistant Professor" },
-      { "id": 1204, "name": "Aerodynamics Specialist" }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Chemical Engineering",
-    "designations": [
-      { "id": 1301, "name": "Professor" },
-      { "id": 1302, "name": "Associate Professor" },
-      { "id": 1303, "name": "Assistant Professor" },
-      { "id": 1304, "name": "Lab Chemist" }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Environmental Engineering",
-    "designations": [
-      { "id": 1401, "name": "Professor" },
-      { "id": 1402, "name": "Associate Professor" },
-      { "id": 1403, "name": "Assistant Professor" },
-      { "id": 1404, "name": "Environmental Analyst" }
-    ]
-  },
-  {
-    "id": 15,
-    "name": "Software Engineering",
-    "designations": [
-      { "id": 1501, "name": "Professor" },
-      { "id": 1502, "name": "Associate Professor" },
-      { "id": 1503, "name": "Assistant Professor" },
-      { "id": 1504, "name": "Software Architect" }
-    ]
-  }
+  { "id": 201, "department": "Electronics and Communication Engineering", "name": "Professor" },
+  { "id": 202, "department": "Electronics and Communication Engineering", "name": "Associate Professor" },
+  { "id": 203, "department": "Electronics and Communication Engineering", "name": "Assistant Professor" },
+  { "id": 204, "department": "Electronics and Communication Engineering", "name": "Lab Technician" },
+
+  { "id": 301, "department": "Electrical and Electronics Engineering", "name": "Professor" },
+  { "id": 302, "department": "Electrical and Electronics Engineering", "name": "Associate Professor" },
+  { "id": 303, "department": "Electrical and Electronics Engineering", "name": "Assistant Professor" },
+  { "id": 304, "department": "Electrical and Electronics Engineering", "name": "Lab Technician" },
+
+  { "id": 401, "department": "Mechanical Engineering", "name": "Professor" },
+  { "id": 402, "department": "Mechanical Engineering", "name": "Associate Professor" },
+  { "id": 403, "department": "Mechanical Engineering", "name": "Assistant Professor" },
+  { "id": 404, "department": "Mechanical Engineering", "name": "Workshop Instructor" },
+
+  { "id": 501, "department": "Civil Engineering", "name": "Professor" },
+  { "id": 502, "department": "Civil Engineering", "name": "Associate Professor" },
+  { "id": 503, "department": "Civil Engineering", "name": "Assistant Professor" },
+  { "id": 504, "department": "Civil Engineering", "name": "Surveying Lab Instructor" },
+
+  { "id": 601, "department": "Information Technology", "name": "Professor" },
+  { "id": 602, "department": "Information Technology", "name": "Associate Professor" },
+  { "id": 603, "department": "Information Technology", "name": "Assistant Professor" },
+  { "id": 604, "department": "Information Technology", "name": "Lab Instructor" },
+
+  { "id": 701, "department": "Artificial Intelligence and Machine Learning", "name": "Professor" },
+  { "id": 702, "department": "Artificial Intelligence and Machine Learning", "name": "Associate Professor" },
+  { "id": 703, "department": "Artificial Intelligence and Machine Learning", "name": "Assistant Professor" },
+  { "id": 704, "department": "Artificial Intelligence and Machine Learning", "name": "AI Lab Instructor" },
+
+  { "id": 801, "department": "Biotechnology", "name": "Professor" },
+  { "id": 802, "department": "Biotechnology", "name": "Associate Professor" },
+  { "id": 803, "department": "Biotechnology", "name": "Assistant Professor" },
+  { "id": 804, "department": "Biotechnology", "name": "Research Assistant" },
+
+  { "id": 901, "department": "MBA", "name": "Professor" },
+  { "id": 902, "department": "MBA", "name": "Associate Professor" },
+  { "id": 903, "department": "MBA", "name": "Assistant Professor" },
+  { "id": 904, "department": "MBA", "name": "Industry Expert" },
+
+  { "id": 1001, "department": "Data Science", "name": "Professor" },
+  { "id": 1002, "department": "Data Science", "name": "Associate Professor" },
+  { "id": 1003, "department": "Data Science", "name": "Assistant Professor" },
+  { "id": 1004, "department": "Data Science", "name": "Data Analyst" },
+
+  { "id": 1101, "department": "Robotics and Automation", "name": "Professor" },
+  { "id": 1102, "department": "Robotics and Automation", "name": "Associate Professor" },
+  { "id": 1103, "department": "Robotics and Automation", "name": "Assistant Professor" },
+  { "id": 1104, "department": "Robotics and Automation", "name": "Robotics Lab Instructor" },
+
+  { "id": 1201, "department": "Aerospace Engineering", "name": "Professor" },
+  { "id": 1202, "department": "Aerospace Engineering", "name": "Associate Professor" },
+  { "id": 1203, "department": "Aerospace Engineering", "name": "Assistant Professor" },
+  { "id": 1204, "department": "Aerospace Engineering", "name": "Aerodynamics Specialist" },
+
+  { "id": 1301, "department": "Chemical Engineering", "name": "Professor" },
+  { "id": 1302, "department": "Chemical Engineering", "name": "Associate Professor" },
+  { "id": 1303, "department": "Chemical Engineering", "name": "Assistant Professor" },
+  { "id": 1304, "department": "Chemical Engineering", "name": "Lab Chemist" },
+
+  { "id": 1401, "department": "Environmental Engineering", "name": "Professor" },
+  { "id": 1402, "department": "Environmental Engineering", "name": "Associate Professor" },
+  { "id": 1403, "department": "Environmental Engineering", "name": "Assistant Professor" },
+  { "id": 1404, "department": "Environmental Engineering", "name": "Environmental Analyst" },
+
+  { "id": 1501, "department": "Software Engineering", "name": "Professor" },
+  { "id": 1502, "department": "Software Engineering", "name": "Associate Professor" },
+  { "id": 1503, "department": "Software Engineering", "name": "Assistant Professor" },
+  { "id": 1504, "department": "Software Engineering", "name": "Software Architect" }
 ]
 
+ 
 }
