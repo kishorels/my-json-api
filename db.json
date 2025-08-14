@@ -404,11 +404,29 @@
   }
 ]
  , 
-  "lessonPlans": [
-    { "id": 1, "subjectId": 1, "week": 1, "topic": "Introduction to C Language" },
-    { "id": 2, "subjectId": 1, "week": 2, "topic": "Variables and Data Types" },
-    { "id": 3, "subjectId": 2, "week": 1, "topic": "Database Concepts" }
-  ],
+  "lessonPlans":[
+  { "id": 1, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "Intro to Programming" },
+  { "id": 2, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "History of C" },
+  { "id": 3, "departmentId": 1, "classId": 1, "subjectId": 2, "chapter": "Chapter 2", "topic": "Database Concepts" },
+  { "id": 4, "departmentId": 1, "classId": 1, "subjectId": 2, "chapter": "Chapter 2", "topic": "ER Diagrams" },
+  { "id": 5, "departmentId": 1, "classId": 1, "subjectId": 3, "chapter": "Chapter 3", "topic": "Arrays in Data Structures" },
+  { "id": 6, "departmentId": 1, "classId": 1, "subjectId": 3, "chapter": "Chapter 3", "topic": "Linked Lists" },
+  { "id": 7, "departmentId": 1, "classId": 1, "subjectId": 4, "chapter": "Chapter 4", "topic": "OS Basics" },
+  { "id": 8, "departmentId": 1, "classId": 1, "subjectId": 4, "chapter": "Chapter 4", "topic": "Process Scheduling" },
+  { "id": 9, "departmentId": 1, "classId": 1, "subjectId": 5, "chapter": "Chapter 5", "topic": "Network Topologies" },
+  { "id": 10, "departmentId": 1, "classId": 1, "subjectId": 5, "chapter": "Chapter 5", "topic": "TCP/IP Protocols" },
+  { "id": 11, "departmentId": 2, "classId": 2, "subjectId": 11, "chapter": "Chapter 1", "topic": "Basic Algebra" },
+  { "id": 12, "departmentId": 2, "classId": 2, "subjectId": 12, "chapter": "Chapter 1", "topic": "Newton’s Laws" },
+  { "id": 13, "departmentId": 2, "classId": 2, "subjectId": 13, "chapter": "Chapter 1", "topic": "Periodic Table" },
+  { "id": 14, "departmentId": 2, "classId": 2, "subjectId": 14, "chapter": "Chapter 2", "topic": "Electrical Circuits" },
+  { "id": 15, "departmentId": 2, "classId": 2, "subjectId": 15, "chapter": "Chapter 2", "topic": "Ecosystems" },
+  { "id": 16, "departmentId": 3, "classId": 3, "subjectId": 6, "chapter": "Chapter 1", "topic": "Marketing Principles" },
+  { "id": 17, "departmentId": 3, "classId": 3, "subjectId": 7, "chapter": "Chapter 2", "topic": "Balance Sheet Basics" },
+  { "id": 18, "departmentId": 3, "classId": 3, "subjectId": 8, "chapter": "Chapter 2", "topic": "Contract Law" },
+  { "id": 19, "departmentId": 4, "classId": 4, "subjectId": 16, "chapter": "Chapter 1", "topic": "Software Development Lifecycle" },
+  { "id": 20, "departmentId": 4, "classId": 4, "subjectId": 20, "chapter": "Chapter 2", "topic": "Neural Networks Basics" }
+] ,
+
   "designations": [
     { "id": 1, "name": "Professor" },
     { "id": 2, "name": "Associate Professor" },
