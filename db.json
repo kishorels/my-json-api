@@ -333,9 +333,157 @@
 ]
 ,
 
-  "designations": [
-    { "id": 1, "name": "Professor" },
-    { "id": 2, "name": "Associate Professor" },
-    { "id": 3, "name": "Assistant Professor" }
-  ]
+  "designations":[
+  {
+    "id": 1,
+    "name": "Computer Science and Engineering",
+    "designations": [
+      { "id": 101, "name": "Professor" },
+      { "id": 102, "name": "Associate Professor" },
+      { "id": 103, "name": "Assistant Professor" },
+      { "id": 104, "name": "Lab Instructor" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Electronics and Communication Engineering",
+    "designations": [
+      { "id": 201, "name": "Professor" },
+      { "id": 202, "name": "Associate Professor" },
+      { "id": 203, "name": "Assistant Professor" },
+      { "id": 204, "name": "Lab Technician" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Electrical and Electronics Engineering",
+    "designations": [
+      { "id": 301, "name": "Professor" },
+      { "id": 302, "name": "Associate Professor" },
+      { "id": 303, "name": "Assistant Professor" },
+      { "id": 304, "name": "Lab Technician" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mechanical Engineering",
+    "designations": [
+      { "id": 401, "name": "Professor" },
+      { "id": 402, "name": "Associate Professor" },
+      { "id": 403, "name": "Assistant Professor" },
+      { "id": 404, "name": "Workshop Instructor" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Civil Engineering",
+    "designations": [
+      { "id": 501, "name": "Professor" },
+      { "id": 502, "name": "Associate Professor" },
+      { "id": 503, "name": "Assistant Professor" },
+      { "id": 504, "name": "Surveying Lab Instructor" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Information Technology",
+    "designations": [
+      { "id": 601, "name": "Professor" },
+      { "id": 602, "name": "Associate Professor" },
+      { "id": 603, "name": "Assistant Professor" },
+      { "id": 604, "name": "Lab Instructor" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Artificial Intelligence and Machine Learning",
+    "designations": [
+      { "id": 701, "name": "Professor" },
+      { "id": 702, "name": "Associate Professor" },
+      { "id": 703, "name": "Assistant Professor" },
+      { "id": 704, "name": "AI Lab Instructor" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Biotechnology",
+    "designations": [
+      { "id": 801, "name": "Professor" },
+      { "id": 802, "name": "Associate Professor" },
+      { "id": 803, "name": "Assistant Professor" },
+      { "id": 804, "name": "Research Assistant" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "MBA",
+    "designations": [
+      { "id": 901, "name": "Professor" },
+      { "id": 902, "name": "Associate Professor" },
+      { "id": 903, "name": "Assistant Professor" },
+      { "id": 904, "name": "Industry Expert" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Data Science",
+    "designations": [
+      { "id": 1001, "name": "Professor" },
+      { "id": 1002, "name": "Associate Professor" },
+      { "id": 1003, "name": "Assistant Professor" },
+      { "id": 1004, "name": "Data Analyst" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Robotics and Automation",
+    "designations": [
+      { "id": 1101, "name": "Professor" },
+      { "id": 1102, "name": "Associate Professor" },
+      { "id": 1103, "name": "Assistant Professor" },
+      { "id": 1104, "name": "Robotics Lab Instructor" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Aerospace Engineering",
+    "designations": [
+      { "id": 1201, "name": "Professor" },
+      { "id": 1202, "name": "Associate Professor" },
+      { "id": 1203, "name": "Assistant Professor" },
+      { "id": 1204, "name": "Aerodynamics Specialist" }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chemical Engineering",
+    "designations": [
+      { "id": 1301, "name": "Professor" },
+      { "id": 1302, "name": "Associate Professor" },
+      { "id": 1303, "name": "Assistant Professor" },
+      { "id": 1304, "name": "Lab Chemist" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Environmental Engineering",
+    "designations": [
+      { "id": 1401, "name": "Professor" },
+      { "id": 1402, "name": "Associate Professor" },
+      { "id": 1403, "name": "Assistant Professor" },
+      { "id": 1404, "name": "Environmental Analyst" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Software Engineering",
+    "designations": [
+      { "id": 1501, "name": "Professor" },
+      { "id": 1502, "name": "Associate Professor" },
+      { "id": 1503, "name": "Assistant Professor" },
+      { "id": 1504, "name": "Software Architect" }
+    ]
+  }
+]
+
 }
