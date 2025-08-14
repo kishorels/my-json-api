@@ -330,9 +330,8 @@
 
   { "id": 49, "departmentId": 2, "classId": 5, "subjectId": 25, "chapter": "Chapter 5", "topic": "Control System Basics" },
   { "id": 50, "departmentId": 2, "classId": 5, "subjectId": 25, "chapter": "Chapter 5", "topic": "PID Controllers" }
-]
-,
-"designations"[
+],
+"designations":[
   { "id": 101, "department": "Computer Science and Engineering", "name": "Professor" },
   { "id": 102, "department": "Computer Science and Engineering", "name": "Associate Professor" },
   { "id": 103, "department": "Computer Science and Engineering", "name": "Assistant Professor" },
