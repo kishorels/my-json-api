@@ -103,6 +103,8 @@
   {
     "subjectId": 1,
     "subjectName": "Programming in C",
+    "departmentId": 1,
+    "classId": 1,
     "chapters": [
       {
         "chapterName": "Introduction",
@@ -121,6 +123,8 @@
   {
     "subjectId": 2,
     "subjectName": "Database Systems",
+    "departmentId": 1,
+    "classId": 1,
     "chapters": [
       {
         "chapterName": "Introduction to Databases",
@@ -139,6 +143,8 @@
   {
     "subjectId": 3,
     "subjectName": "Data Structures",
+    "departmentId": 1,
+    "classId": 2,
     "chapters": [
       {
         "chapterName": "Arrays",
@@ -153,254 +159,9 @@
         "topics": ["Binary Tree", "Binary Search Tree", "Tree Traversals"]
       }
     ]
-  },
-  {
-    "subjectId": 4,
-    "subjectName": "Operating Systems",
-    "chapters": [
-      {
-        "chapterName": "Introduction",
-        "topics": ["Functions of OS", "Types of OS", "OS Structure"]
-      },
-      {
-        "chapterName": "Process Management",
-        "topics": ["Process States", "Scheduling Algorithms", "Inter-Process Communication"]
-      },
-      {
-        "chapterName": "Memory Management",
-        "topics": ["Paging", "Segmentation", "Virtual Memory"]
-      }
-    ]
-  },
-  {
-    "subjectId": 5,
-    "subjectName": "Computer Networks",
-    "chapters": [
-      {
-        "chapterName": "Introduction",
-        "topics": ["Types of Networks", "Network Topologies", "Protocols"]
-      },
-      {
-        "chapterName": "Data Link Layer",
-        "topics": ["Error Detection", "Error Correction", "MAC Protocols"]
-      },
-      {
-        "chapterName": "Network Layer",
-        "topics": ["IP Addressing", "Routing Algorithms", "Subnets"]
-      }
-    ]
-  },
-  {
-    "subjectId": 6,
-    "subjectName": "Marketing Basics",
-    "chapters": [
-      {
-        "chapterName": "Introduction to Marketing",
-        "topics": ["Definition", "Importance", "Marketing Concepts"]
-      },
-      {
-        "chapterName": "Market Segmentation",
-        "topics": ["Demographic", "Psychographic", "Behavioral Segmentation"]
-      }
-    ]
-  },
-  {
-    "subjectId": 7,
-    "subjectName": "Financial Accounting",
-    "chapters": [
-      {
-        "chapterName": "Basics of Accounting",
-        "topics": ["Accounting Principles", "Double Entry System", "Accounting Cycle"]
-      },
-      {
-        "chapterName": "Financial Statements",
-        "topics": ["Balance Sheet", "Income Statement", "Cash Flow Statement"]
-      }
-    ]
-  },
-  {
-    "subjectId": 8,
-    "subjectName": "Business Law",
-    "chapters": [
-      {
-        "chapterName": "Introduction",
-        "topics": ["Nature of Law", "Types of Law", "Sources of Law"]
-      },
-      {
-        "chapterName": "Contracts",
-        "topics": ["Elements of Contract", "Types of Contracts", "Breach of Contract"]
-      }
-    ]
-  },
-  {
-    "subjectId": 9,
-    "subjectName": "Organizational Behavior",
-    "chapters": [
-      {
-        "chapterName": "Introduction",
-        "topics": ["Definition", "Importance", "OB Models"]
-      },
-      {
-        "chapterName": "Motivation",
-        "topics": ["Maslow's Theory", "Herzberg's Theory", "McGregor's Theory X and Y"]
-      }
-    ]
-  },
-  {
-    "subjectId": 10,
-    "subjectName": "Entrepreneurship",
-    "chapters": [
-      {
-        "chapterName": "Entrepreneurship Basics",
-        "topics": ["Definition", "Importance", "Types of Entrepreneurs"]
-      },
-      {
-        "chapterName": "Business Planning",
-        "topics": ["Business Plan Structure", "Market Analysis", "Funding Sources"]
-      }
-    ]
-  },
-  {
-    "subjectId": 11,
-    "subjectName": "Engineering Mathematics I",
-    "chapters": [
-      {
-        "chapterName": "Calculus",
-        "topics": ["Limits", "Derivatives", "Integrals"]
-      },
-      {
-        "chapterName": "Linear Algebra",
-        "topics": ["Matrices", "Determinants", "Eigenvalues & Eigenvectors"]
-      }
-    ]
-  },
-  {
-    "subjectId": 12,
-    "subjectName": "Engineering Physics",
-    "chapters": [
-      {
-        "chapterName": "Mechanics",
-        "topics": ["Laws of Motion", "Work, Energy, Power", "Rotational Motion"]
-      },
-      {
-        "chapterName": "Optics",
-        "topics": ["Reflection", "Refraction", "Interference & Diffraction"]
-      }
-    ]
-  },
-  {
-    "subjectId": 13,
-    "subjectName": "Engineering Chemistry",
-    "chapters": [
-      {
-        "chapterName": "Atomic Structure",
-        "topics": ["Bohr’s Model", "Quantum Numbers", "Electronic Configuration"]
-      },
-      {
-        "chapterName": "Chemical Bonding",
-        "topics": ["Ionic Bond", "Covalent Bond", "Metallic Bond"]
-      }
-    ]
-  },
-  {
-    "subjectId": 14,
-    "subjectName": "Basic Electrical Engineering",
-    "chapters": [
-      {
-        "chapterName": "Basics of Electricity",
-        "topics": ["Ohm's Law", "Kirchhoff's Laws", "Electrical Power"]
-      },
-      {
-        "chapterName": "AC & DC Circuits",
-        "topics": ["Series & Parallel Circuits", "Resonance", "Power Factor"]
-      }
-    ]
-  },
-  {
-    "subjectId": 15,
-    "subjectName": "Environmental Studies",
-    "chapters": [
-      {
-        "chapterName": "Ecosystems",
-        "topics": ["Types of Ecosystems", "Energy Flow", "Food Chains"]
-      },
-      {
-        "chapterName": "Environmental Pollution",
-        "topics": ["Air Pollution", "Water Pollution", "Soil Pollution"]
-      }
-    ]
-  },
-  {
-    "subjectId": 16,
-    "subjectName": "Software Engineering",
-    "chapters": [
-      {
-        "chapterName": "Software Development Life Cycle",
-        "topics": ["Waterfall Model", "Agile Model", "Spiral Model"]
-      },
-      {
-        "chapterName": "Requirements Engineering",
-        "topics": ["Elicitation", "Specification", "Validation"]
-      }
-    ]
-  },
-  {
-    "subjectId": 17,
-    "subjectName": "Mobile App Development",
-    "chapters": [
-      {
-        "chapterName": "Introduction",
-        "topics": ["Mobile Platforms", "Development Tools", "App Lifecycle"]
-      },
-      {
-        "chapterName": "UI Design",
-        "topics": ["Design Principles", "Layout Structures", "Navigation Patterns"]
-      }
-    ]
-  },
-  {
-    "subjectId": 18,
-    "subjectName": "Web Technologies",
-    "chapters": [
-      {
-        "chapterName": "HTML & CSS",
-        "topics": ["HTML Basics", "CSS Styling", "Responsive Design"]
-      },
-      {
-        "chapterName": "JavaScript",
-        "topics": ["Variables & Data Types", "Functions", "DOM Manipulation"]
-      }
-    ]
-  },
-  {
-    "subjectId": 19,
-    "subjectName": "Cloud Computing",
-    "chapters": [
-      {
-        "chapterName": "Introduction",
-        "topics": ["Cloud Models", "Service Models", "Deployment Models"]
-      },
-      {
-        "chapterName": "Cloud Services",
-        "topics": ["AWS Overview", "Azure Overview", "Google Cloud Overview"]
-      }
-    ]
-  },
-  {
-    "subjectId": 20,
-    "subjectName": "Machine Learning",
-    "chapters": [
-      {
-        "chapterName": "Introduction to ML",
-        "topics": ["Definition", "Applications", "ML Workflow"]
-      },
-      {
-        "chapterName": "Supervised Learning",
-        "topics": ["Regression", "Classification", "Model Evaluation"]
-      }
-    ]
   }
-] , 
+]
+, 
 "lessonPlans":[
   { "id": 1, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "Intro to Programming" },
   { "id": 2, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "History of C" },
