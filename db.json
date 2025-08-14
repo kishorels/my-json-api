@@ -104,63 +104,156 @@
     "subjectId": 1,
     "subjectName": "Programming in C",
     "departmentId": 1,
-    "classId": 1,
-    "chapters": [
-      {
-        "chapterName": "Introduction",
-        "topics": ["History of C", "Basic Structure of C Program", "Compilation Process"]
-      },
-      {
-        "chapterName": "Variables & Data Types",
-        "topics": ["Variable Declaration", "Data Types", "Constants"]
-      },
-      {
-        "chapterName": "Control Statements",
-        "topics": ["if-else", "switch-case", "Loops (for, while, do-while)"]
-      }
-    ]
+    "classId": 1
   },
   {
     "subjectId": 2,
-    "subjectName": "Database Systems",
+    "subjectName": "Mathematics I",
     "departmentId": 1,
-    "classId": 1,
-    "chapters": [
-      {
-        "chapterName": "Introduction to Databases",
-        "topics": ["DBMS Overview", "Advantages of DBMS", "Types of Databases"]
-      },
-      {
-        "chapterName": "SQL Basics",
-        "topics": ["SELECT", "INSERT", "UPDATE", "DELETE"]
-      },
-      {
-        "chapterName": "Normalization",
-        "topics": ["1NF", "2NF", "3NF", "BCNF"]
-      }
-    ]
+    "classId": 1
   },
   {
     "subjectId": 3,
+    "subjectName": "Physics",
+    "departmentId": 1,
+    "classId": 1
+  },
+  {
+    "subjectId": 4,
+    "subjectName": "Introduction to Engineering",
+    "departmentId": 1,
+    "classId": 1
+  },
+  {
+    "subjectId": 5,
+    "subjectName": "Basic Electronics",
+    "departmentId": 1,
+    "classId": 1
+  },
+  {
+    "subjectId": 6,
     "subjectName": "Data Structures",
     "departmentId": 1,
-    "classId": 2,
-    "chapters": [
-      {
-        "chapterName": "Arrays",
-        "topics": ["1D Arrays", "2D Arrays", "Array Operations"]
-      },
-      {
-        "chapterName": "Linked Lists",
-        "topics": ["Singly Linked List", "Doubly Linked List", "Circular Linked List"]
-      },
-      {
-        "chapterName": "Trees",
-        "topics": ["Binary Tree", "Binary Search Tree", "Tree Traversals"]
-      }
-    ]
+    "classId": 2
+  },
+  {
+    "subjectId": 7,
+    "subjectName": "Discrete Mathematics",
+    "departmentId": 1,
+    "classId": 2
+  },
+  {
+    "subjectId": 8,
+    "subjectName": "Digital Logic",
+    "departmentId": 1,
+    "classId": 2
+  },
+  {
+    "subjectId": 9,
+    "subjectName": "Computer Organization",
+    "departmentId": 1,
+    "classId": 2
+  },
+  {
+    "subjectId": 10,
+    "subjectName": "Environmental Studies",
+    "departmentId": 1,
+    "classId": 2
+  },
+  {
+    "subjectId": 11,
+    "subjectName": "Algorithms",
+    "departmentId": 1,
+    "classId": 3
+  },
+  {
+    "subjectId": 12,
+    "subjectName": "Operating Systems",
+    "departmentId": 1,
+    "classId": 3
+  },
+  {
+    "subjectId": 13,
+    "subjectName": "Database Systems",
+    "departmentId": 1,
+    "classId": 3
+  },
+  {
+    "subjectId": 14,
+    "subjectName": "Software Engineering",
+    "departmentId": 1,
+    "classId": 3
+  },
+  {
+    "subjectId": 15,
+    "subjectName": "Computer Networks",
+    "departmentId": 1,
+    "classId": 3
+  },
+  {
+    "subjectId": 16,
+    "subjectName": "Machine Learning",
+    "departmentId": 1,
+    "classId": 4
+  },
+  {
+    "subjectId": 17,
+    "subjectName": "Cloud Computing",
+    "departmentId": 1,
+    "classId": 4
+  },
+  {
+    "subjectId": 18,
+    "subjectName": "Web Technologies",
+    "departmentId": 1,
+    "classId": 4
+  },
+  {
+    "subjectId": 19,
+    "subjectName": "Mobile App Development",
+    "departmentId": 1,
+    "classId": 4
+  },
+  {
+    "subjectId": 20,
+    "subjectName": "Cybersecurity",
+    "departmentId": 1,
+    "classId": 4
+  },
+
+  {
+    "subjectId": 21,
+    "subjectName": "Analog Electronics",
+    "departmentId": 2,
+    "classId": 5
+  },
+  {
+    "subjectId": 22,
+    "subjectName": "Circuit Theory",
+    "departmentId": 2,
+    "classId": 5
+  },
+  {
+    "subjectId": 23,
+    "subjectName": "Signals and Systems",
+    "departmentId": 2,
+    "classId": 5
+  },
+  {
+    "subjectId": 24,
+    "subjectName": "Electromagnetics",
+    "departmentId": 2,
+    "classId": 5
+  },
+  {
+    "subjectId": 25,
+    "subjectName": "Control Systems I",
+    "departmentId": 2,
+    "classId": 5
   }
+
 ]
+
 , 
 "lessonPlans":[
   { "id": 1, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "Intro to Programming" },
