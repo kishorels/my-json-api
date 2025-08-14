@@ -255,28 +255,83 @@
 ]
 
 , 
-"lessonPlans":[
+"lessonPlans": [
   { "id": 1, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "Intro to Programming" },
   { "id": 2, "departmentId": 1, "classId": 1, "subjectId": 1, "chapter": "Chapter 1", "topic": "History of C" },
-  { "id": 3, "departmentId": 1, "classId": 1, "subjectId": 2, "chapter": "Chapter 2", "topic": "Database Concepts" },
-  { "id": 4, "departmentId": 1, "classId": 1, "subjectId": 2, "chapter": "Chapter 2", "topic": "ER Diagrams" },
-  { "id": 5, "departmentId": 1, "classId": 1, "subjectId": 3, "chapter": "Chapter 3", "topic": "Arrays in Data Structures" },
-  { "id": 6, "departmentId": 1, "classId": 1, "subjectId": 3, "chapter": "Chapter 3", "topic": "Linked Lists" },
-  { "id": 7, "departmentId": 1, "classId": 1, "subjectId": 4, "chapter": "Chapter 4", "topic": "OS Basics" },
-  { "id": 8, "departmentId": 1, "classId": 1, "subjectId": 4, "chapter": "Chapter 4", "topic": "Process Scheduling" },
-  { "id": 9, "departmentId": 1, "classId": 1, "subjectId": 5, "chapter": "Chapter 5", "topic": "Network Topologies" },
-  { "id": 10, "departmentId": 1, "classId": 1, "subjectId": 5, "chapter": "Chapter 5", "topic": "TCP/IP Protocols" },
-  { "id": 11, "departmentId": 2, "classId": 2, "subjectId": 11, "chapter": "Chapter 1", "topic": "Basic Algebra" },
-  { "id": 12, "departmentId": 2, "classId": 2, "subjectId": 12, "chapter": "Chapter 1", "topic": "Newton’s Laws" },
-  { "id": 13, "departmentId": 2, "classId": 2, "subjectId": 13, "chapter": "Chapter 1", "topic": "Periodic Table" },
-  { "id": 14, "departmentId": 2, "classId": 2, "subjectId": 14, "chapter": "Chapter 2", "topic": "Electrical Circuits" },
-  { "id": 15, "departmentId": 2, "classId": 2, "subjectId": 15, "chapter": "Chapter 2", "topic": "Ecosystems" },
-  { "id": 16, "departmentId": 3, "classId": 3, "subjectId": 6, "chapter": "Chapter 1", "topic": "Marketing Principles" },
-  { "id": 17, "departmentId": 3, "classId": 3, "subjectId": 7, "chapter": "Chapter 2", "topic": "Balance Sheet Basics" },
-  { "id": 18, "departmentId": 3, "classId": 3, "subjectId": 8, "chapter": "Chapter 2", "topic": "Contract Law" },
-  { "id": 19, "departmentId": 4, "classId": 4, "subjectId": 16, "chapter": "Chapter 1", "topic": "Software Development Lifecycle" },
-  { "id": 20, "departmentId": 4, "classId": 4, "subjectId": 20, "chapter": "Chapter 2", "topic": "Neural Networks Basics" }
-] ,
+
+  { "id": 3, "departmentId": 1, "classId": 1, "subjectId": 2, "chapter": "Chapter 2", "topic": "Linear Equations" },
+  { "id": 4, "departmentId": 1, "classId": 1, "subjectId": 2, "chapter": "Chapter 2", "topic": "Matrices and Determinants" },
+
+  { "id": 5, "departmentId": 1, "classId": 1, "subjectId": 3, "chapter": "Chapter 3", "topic": "Laws of Motion" },
+  { "id": 6, "departmentId": 1, "classId": 1, "subjectId": 3, "chapter": "Chapter 3", "topic": "Work, Energy, and Power" },
+
+  { "id": 7, "departmentId": 1, "classId": 1, "subjectId": 4, "chapter": "Chapter 4", "topic": "Introduction to Engineering" },
+  { "id": 8, "departmentId": 1, "classId": 1, "subjectId": 4, "chapter": "Chapter 4", "topic": "Engineering Ethics" },
+
+  { "id": 9, "departmentId": 1, "classId": 1, "subjectId": 5, "chapter": "Chapter 5", "topic": "Basic Electronic Components" },
+  { "id": 10, "departmentId": 1, "classId": 1, "subjectId": 5, "chapter": "Chapter 5", "topic": "Ohm’s Law" },
+
+  { "id": 11, "departmentId": 1, "classId": 2, "subjectId": 6, "chapter": "Chapter 1", "topic": "Introduction to Data Structures" },
+  { "id": 12, "departmentId": 1, "classId": 2, "subjectId": 6, "chapter": "Chapter 1", "topic": "Arrays and Linked Lists" },
+
+  { "id": 13, "departmentId": 1, "classId": 2, "subjectId": 7, "chapter": "Chapter 2", "topic": "Logic and Proof Techniques" },
+  { "id": 14, "departmentId": 1, "classId": 2, "subjectId": 7, "chapter": "Chapter 2", "topic": "Graph Theory Basics" },
+
+  { "id": 15, "departmentId": 1, "classId": 2, "subjectId": 8, "chapter": "Chapter 3", "topic": "Number Systems" },
+  { "id": 16, "departmentId": 1, "classId": 2, "subjectId": 8, "chapter": "Chapter 3", "topic": "Combinational Circuits" },
+
+  { "id": 17, "departmentId": 1, "classId": 2, "subjectId": 9, "chapter": "Chapter 4", "topic": "Basic Computer Architecture" },
+  { "id": 18, "departmentId": 1, "classId": 2, "subjectId": 9, "chapter": "Chapter 4", "topic": "Instruction Set" },
+
+  { "id": 19, "departmentId": 1, "classId": 2, "subjectId": 10, "chapter": "Chapter 5", "topic": "Environmental Concepts" },
+  { "id": 20, "departmentId": 1, "classId": 2, "subjectId": 10, "chapter": "Chapter 5", "topic": "Sustainable Development" },
+
+  { "id": 21, "departmentId": 1, "classId": 3, "subjectId": 11, "chapter": "Chapter 1", "topic": "Algorithm Analysis" },
+  { "id": 22, "departmentId": 1, "classId": 3, "subjectId": 11, "chapter": "Chapter 1", "topic": "Sorting Algorithms" },
+
+  { "id": 23, "departmentId": 1, "classId": 3, "subjectId": 12, "chapter": "Chapter 2", "topic": "Process Management" },
+  { "id": 24, "departmentId": 1, "classId": 3, "subjectId": 12, "chapter": "Chapter 2", "topic": "Memory Management" },
+
+  { "id": 25, "departmentId": 1, "classId": 3, "subjectId": 13, "chapter": "Chapter 3", "topic": "Relational Model" },
+  { "id": 26, "departmentId": 1, "classId": 3, "subjectId": 13, "chapter": "Chapter 3", "topic": "SQL Basics" },
+
+  { "id": 27, "departmentId": 1, "classId": 3, "subjectId": 14, "chapter": "Chapter 4", "topic": "Software Development Life Cycle" },
+  { "id": 28, "departmentId": 1, "classId": 3, "subjectId": 14, "chapter": "Chapter 4", "topic": "Agile Methodology" },
+
+  { "id": 29, "departmentId": 1, "classId": 3, "subjectId": 15, "chapter": "Chapter 5", "topic": "OSI Model" },
+  { "id": 30, "departmentId": 1, "classId": 3, "subjectId": 15, "chapter": "Chapter 5", "topic": "IP Addressing" },
+
+  { "id": 31, "departmentId": 1, "classId": 4, "subjectId": 16, "chapter": "Chapter 1", "topic": "Introduction to ML" },
+  { "id": 32, "departmentId": 1, "classId": 4, "subjectId": 16, "chapter": "Chapter 1", "topic": "Supervised Learning" },
+
+  { "id": 33, "departmentId": 1, "classId": 4, "subjectId": 17, "chapter": "Chapter 2", "topic": "Cloud Fundamentals" },
+  { "id": 34, "departmentId": 1, "classId": 4, "subjectId": 17, "chapter": "Chapter 2", "topic": "AWS Basics" },
+
+  { "id": 35, "departmentId": 1, "classId": 4, "subjectId": 18, "chapter": "Chapter 3", "topic": "HTML & CSS" },
+  { "id": 36, "departmentId": 1, "classId": 4, "subjectId": 18, "chapter": "Chapter 3", "topic": "JavaScript Basics" },
+
+  { "id": 37, "departmentId": 1, "classId": 4, "subjectId": 19, "chapter": "Chapter 4", "topic": "React Native Basics" },
+  { "id": 38, "departmentId": 1, "classId": 4, "subjectId": 19, "chapter": "Chapter 4", "topic": "State Management" },
+
+  { "id": 39, "departmentId": 1, "classId": 4, "subjectId": 20, "chapter": "Chapter 5", "topic": "Cybersecurity Principles" },
+  { "id": 40, "departmentId": 1, "classId": 4, "subjectId": 20, "chapter": "Chapter 5", "topic": "Network Security" },
+
+  { "id": 41, "departmentId": 2, "classId": 5, "subjectId": 21, "chapter": "Chapter 1", "topic": "Diodes and Transistors" },
+  { "id": 42, "departmentId": 2, "classId": 5, "subjectId": 21, "chapter": "Chapter 1", "topic": "Amplifiers" },
+
+  { "id": 43, "departmentId": 2, "classId": 5, "subjectId": 22, "chapter": "Chapter 2", "topic": "Ohm’s Law Review" },
+  { "id": 44, "departmentId": 2, "classId": 5, "subjectId": 22, "chapter": "Chapter 2", "topic": "AC & DC Circuits" },
+
+  { "id": 45, "departmentId": 2, "classId": 5, "subjectId": 23, "chapter": "Chapter 3", "topic": "Fourier Series" },
+  { "id": 46, "departmentId": 2, "classId": 5, "subjectId": 23, "chapter": "Chapter 3", "topic": "Laplace Transforms" },
+
+  { "id": 47, "departmentId": 2, "classId": 5, "subjectId": 24, "chapter": "Chapter 4", "topic": "Maxwell’s Equations" },
+  { "id": 48, "departmentId": 2, "classId": 5, "subjectId": 24, "chapter": "Chapter 4", "topic": "Transmission Lines" },
+
+  { "id": 49, "departmentId": 2, "classId": 5, "subjectId": 25, "chapter": "Chapter 5", "topic": "Control System Basics" },
+  { "id": 50, "departmentId": 2, "classId": 5, "subjectId": 25, "chapter": "Chapter 5", "topic": "PID Controllers" }
+]
+,
 
   "designations": [
     { "id": 1, "name": "Professor" },
