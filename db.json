@@ -336,7 +336,6 @@
   "designations":[
   {
     "id": 1,
-    "name": "Computer Science and Engineering",
     "designations": [
       { "id": 101, "name": "Professor" },
       { "id": 102, "name": "Associate Professor" },
