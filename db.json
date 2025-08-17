@@ -20,6 +20,7 @@
       "password": "1"
     }
   ],
+  "students":[],
 "courses": [
     { "id": 1, "name": "B.Tech Computer Science Engineering", "duration": "4 Years", "category": "Engineering" },
     { "id": 2, "name": "B.Tech Mechanical Engineering", "duration": "4 Years", "category": "Engineering" },
