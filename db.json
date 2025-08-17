@@ -418,6 +418,24 @@
   "course": "B.Tech",
   "stream": "Management"
 },
+  ],
+  "admissionTypes":[
+    {
+    "id": 1,
+    "name": "Counselling"
+  },
+  {
+    "id": 2,
+    "name": "Management"
+  },
+  {
+    "id": 3,
+    "name": "Sports Quota"
+  },
+  {
+    "id": 4,
+    "name": "Scholarship"
+  }
   ]
  
 }
