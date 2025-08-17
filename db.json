@@ -407,11 +407,11 @@
   { "id": 1502, "department": "Software Engineering", "name": "Associate Professor" },
   { "id": 1503, "department": "Software Engineering", "name": "Assistant Professor" },
   { "id": 1504, "department": "Software Engineering", "name": "Software Architect" }
-]
-
+],
+  "students": []
  
 }
-{
-  "students": []
-}
+
+
+
 
