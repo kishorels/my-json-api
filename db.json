@@ -538,49 +538,47 @@
     }
   ],
    "attendance": [
-    {
-      "id": 1,
-      "studentId": 1,
-      "subjectId": 1,
-      "date": "2025-08-01",
-      "status": "Present"
-    },
-    {
-      "id": 2,
-      "studentId": 2,
-      "subjectId": 1,
-      "date": "2025-08-01",
-      "status": "Absent"
-    },
-    {
-      "id": 3,
-      "studentId": 1,
-      "subjectId": 2,
-      "date": "2025-08-02",
-      "status": "Present"
-    },
-    {
-      "id": 4,
-      "studentId": 3,
-      "subjectId": 3,
-      "date": "2025-08-01",
-      "status": "Present"
-    },
-    {
-      "id": 5,
-      "studentId": 4,
-      "subjectId": 3,
-      "date": "2025-08-01",
-      "status": "Absent"
-    },
-    {
-      "id": 6,
-      "studentId": 5,
-      "subjectId": 4,
-      "date": "2025-08-01",
-      "status": "Present"
-    }
-  ]
+  {
+    "id": 1,
+    "subjectId": 1,
+    "departmentId": 1,
+    "students": [
+      { "studentId": 1, "name": "Alice", "status": "Present" },
+      { "studentId": 2, "name": "Bob", "status": "Absent" },
+      { "studentId": 3, "name": "Charlie", "status": "Present" }
+    ]
+  },
+  {
+    "id": 2,
+    "subjectId": 2,
+    "departmentId": 1,
+    "students": [
+      { "studentId": 4, "name": "David", "status": "Present" },
+      { "studentId": 5, "name": "Eve", "status": "Present" },
+      { "studentId": 6, "name": "Frank", "status": "Absent" }
+    ]
+  },
+  {
+    "id": 3,
+    "subjectId": 3,
+    "departmentId": 2,
+    "students": [
+      { "studentId": 7, "name": "Grace", "status": "Absent" },
+      { "studentId": 8, "name": "Hannah", "status": "Present" },
+      { "studentId": 9, "name": "Ivy", "status": "Present" }
+    ]
+  },
+  {
+    "id": 4,
+    "subjectId": 4,
+    "departmentId": 2,
+    "students": [
+      { "studentId": 10, "name": "Jack", "status": "Present" },
+      { "studentId": 11, "name": "Kenny", "status": "Absent" },
+      { "studentId": 12, "name": "Liam", "status": "Present" }
+    ]
+  }
+]
 
   
  
