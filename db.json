@@ -444,6 +444,11 @@
   "course": "B.Sc Computer Science",
   "admissionType": "Counselling"
 }
+  ], 
+  "classviewer": [
+    { "id": 1, "classId": 1, "studentId": 1 },
+    { "id": 2, "classId": 2, "studentId": 2 },
+    { "id": 3, "classId": 3, "studentId": 3 }
   ]
   
  
