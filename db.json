@@ -417,9 +417,9 @@
   "dob": "09/8/2001",
   "course": "B.Tech",
   "stream": "Management"
-},
+}
   ],
-  "admissionTypes":[
+  "admissionTypes":[ 
     {
     "id": 1,
     "name": "Counselling"
