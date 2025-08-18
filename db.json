@@ -439,7 +439,7 @@
   ],
   "students":[
     {
-  "id": 1,
+  "studentId": 1,
   "name": "Kishore",
   "course": "B.Sc Computer Science",
   "admissionType": "Counselling"
