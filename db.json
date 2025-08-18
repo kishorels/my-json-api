@@ -436,7 +436,15 @@
     "id": 4,
     "name": "Scholarship"
   }
+  ],
+  "students":[
+    {
+  "name": "Kishore",
+  "course": "B.Sc Computer Science",
+  "admissionType": "Counselling"
+},
   ]
+  
  
 }
 
