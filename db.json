@@ -506,7 +506,14 @@
         { "id": 12, "name": "Rohit" }
       ]
     }
-  ]
+  ],
+  "subjectEnrollments": [
+  { "subjectId": 1, "studentId": 1 },
+  { "subjectId": 1, "studentId": 2 },
+  { "subjectId": 6, "studentId": 3 },
+  { "subjectId": 6, "studentId": 4 },
+  { "subjectId": 11, "studentId": 5 }
+]
   
  
 }
