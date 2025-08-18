@@ -437,18 +437,75 @@
     "name": "Scholarship"
   }
   ],
-  "students":[
-    {
-  "id": 1,
-  "name": "Kishore",
-  "course": "B.Sc Computer Science",
-  "admissionType": "Counselling"
-}
-  ], 
+   "students": [
+    { "id": 1, "name": "Kishore", "classId": 1, "departmentId": 1 },
+    { "id": 2, "name": "Arjun", "classId": 1, "departmentId": 1 },
+    { "id": 3, "name": "Meera", "classId": 2, "departmentId": 1 },
+    { "id": 4, "name": "Nithin", "classId": 2, "departmentId": 1 },
+    { "id": 5, "name": "Riya", "classId": 3, "departmentId": 2 },
+    { "id": 6, "name": "Manoj", "classId": 3, "departmentId": 2 },
+    { "id": 7, "name": "Anjali", "classId": 4, "departmentId": 2 },
+    { "id": 8, "name": "Suresh", "classId": 4, "departmentId": 2 },
+    { "id": 9, "name": "Priya", "classId": 5, "departmentId": 3 },
+    { "id": 10, "name": "Vikram", "classId": 5, "departmentId": 3 },
+    { "id": 11, "name": "Divya", "classId": 6, "departmentId": 3 },
+    { "id": 12, "name": "Rohit", "classId": 6, "departmentId": 3 }
+  ],
   "classviewer": [
-    { "id": 1, "classId": 1, "studentId": 1 },
-    { "id": 2, "classId": 2, "studentId": 2 },
-    { "id": 3, "classId": 3, "studentId": 3 }
+    {
+      "id": 1,
+      "departmentId": 1,
+      "classId": 1,
+      "students": [
+        { "id": 1, "name": "Kishore" },
+        { "id": 2, "name": "Arjun" }
+      ]
+    },
+    {
+      "id": 2,
+      "departmentId": 1,
+      "classId": 2,
+      "students": [
+        { "id": 3, "name": "Meera" },
+        { "id": 4, "name": "Nithin" }
+      ]
+    },
+    {
+      "id": 3,
+      "departmentId": 2,
+      "classId": 3,
+      "students": [
+        { "id": 5, "name": "Riya" },
+        { "id": 6, "name": "Manoj" }
+      ]
+    },
+    {
+      "id": 4,
+      "departmentId": 2,
+      "classId": 4,
+      "students": [
+        { "id": 7, "name": "Anjali" },
+        { "id": 8, "name": "Suresh" }
+      ]
+    },
+    {
+      "id": 5,
+      "departmentId": 3,
+      "classId": 5,
+      "students": [
+        { "id": 9, "name": "Priya" },
+        { "id": 10, "name": "Vikram" }
+      ]
+    },
+    {
+      "id": 6,
+      "departmentId": 3,
+      "classId": 6,
+      "students": [
+        { "id": 11, "name": "Divya" },
+        { "id": 12, "name": "Rohit" }
+      ]
+    }
   ]
   
  
