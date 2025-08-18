@@ -581,7 +581,36 @@
       { "id": 8, "name": "Suresh" }
     ]
   }
-]
+],
+  "subjectViewer": [
+    {
+      "id": 1,
+      "departmentId": 1,
+      "subjectId": 1,
+      "students": [
+        { "id": 1, "name": "Kishore" },
+        { "id": 2, "name": "Arjun" }
+      ]
+    },
+    {
+      "id": 2,
+      "departmentId": 1,
+      "subjectId": 2,
+      "students": [
+        { "id": 3, "name": "Meena" },
+        { "id": 4, "name": "Ravi" }
+      ]
+    },
+    {
+      "id": 3,
+      "departmentId": 2,
+      "subjectId": 3,
+      "students": [
+        { "id": 5, "name": "Sita" },
+        { "id": 6, "name": "Vikram" }
+      ]
+    }
+  ]
 
   
  
